@@ -246,7 +246,6 @@ foreach ($domain in $domainsToAudit) {
     } catch {
         Write-Warning "Failed processing domain $domain : $_"
     }
-}
 
 # =====================
 # Report Output
